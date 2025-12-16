@@ -47,7 +47,8 @@ def form():
     return render_template('form.html')
 
 #Formun sonuçları
-# Form sonuçları
+
+
 @app.route('/submit', methods=['GET','POST'])
 def submit_form():
     name = request.form['name']
